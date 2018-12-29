@@ -5,3 +5,14 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
+REQ-ID: PJ1
+Description: The product shall be able to un-allocate tickets from a customer
+Type: Functional Requirement
+Rationale: To enable returned tickets to be scheduled for re-allocation
+Originator: Polly
+
+REQ-ID: PJ2
+Description: The product shall be able to add returned tickets to a re-allocation schedule
+Type: Functional Requirement
+Rationale: To enable returned tickets to be re-allocated when a schedule runs
+Originator: Polly
