@@ -16,3 +16,15 @@ Description: The product shall be able to add returned tickets to a re-allocatio
 Type: Functional Requirement
 Rationale: To enable returned tickets to be re-allocated when a schedule runs
 Originator: Polly
+
+REQ-ID: SH1
+Description: The product will assign returned tickets to be reallocated
+Type: Functional Requirement
+Rationale: Allows for the tickets to be reallocated to those in the waiting list in a manageable and consistent manner
+Originator: Polly
+
+REQ-ID: SH2
+Description: The product will display all tickets a customer currently owns
+Type: Functional Requirement
+Rationale: The customer will need some record of their currently owned tickets in order to choose one or more for returning, if they want to
+Originator: Polly
