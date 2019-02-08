@@ -40,3 +40,16 @@ Description: It must be possible for the review staff to view the reason for ret
 Type: Functional Requirement
 Rationale: So that it is possible to identify if there are common reasons or causes for returning tickets
 Originator: Thomas
+
+REQ-ID: MG1
+Description: The product shall check a returned ticket against that customer’s ticket purchases
+Type: Functional Requirement
+Rationale: To verify that the customer has previously purchased the ticket
+Originator: Thomas Shelby - Business Development
+
+REQ-ID: MG2
+Description: The product shall put a returned ticket into a returned tickets repository
+Type: Functional Requirement
+Rationale: To enable controlled reallocation of returned tickets
+Originator: Polly Gray - Domestic Ticket Sales
+
