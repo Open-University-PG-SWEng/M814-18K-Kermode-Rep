@@ -53,3 +53,14 @@ Type: Functional Requirement
 Rationale: To enable controlled reallocation of returned tickets
 Originator: Polly Gray - Domestic Ticket Sales
 
+REQ-ID: RJE1
+Description: The product shall accept the returned ticket(s) selected by the customer.
+Type: Functional Requirement
+Rationale: The returned ticket(s) are required to enable the appropriate tickets within the real time inventory to be identified and made available for re-sale. 
+Originator: Thomas Shelby – Business Development Manager 
+
+REQ-ID: RJE2
+Description: The product shall accept the reason the customer wants to return ticket(s).
+Type: Functional Requirement
+Rationale: The reason ticket(s) are returned is required to enable the identification of any trends in ticket returns and assist with fraud prevention. 
+Originator: Polly Gray – Domestic Ticket Sales Manager 
