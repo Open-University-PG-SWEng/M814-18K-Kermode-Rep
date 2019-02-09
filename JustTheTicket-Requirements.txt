@@ -64,3 +64,19 @@ Description: The product shall accept the reason the customer wants to return ti
 Type: Functional Requirement
 Rationale: The reason ticket(s) are returned is required to enable the identification of any trends in ticket returns and assist with fraud prevention. 
 Originator: Polly Gray – Domestic Ticket Sales Manager 
+
+REQ-ID: WD1
+Description: The product shall refund customers using original payment method.
+Type: Functional Requirement
+Rationale: By refunding the original payment method reduces the risk of fraud and restricts black market trading.
+Originator: Thomas Shelby, Customer
+Comments: [William Donnell] Added as part of TMA02 - Q4b
+
+REQ-ID: WD2
+Description: The product shall add returned tickets to a reallocation list.
+Type: Functional Requirement
+Rationale: This allows returned tickets to be reallocated to waiting customers at a later date.
+Originator: Poly Gray
+Comments: [William Donnell] Added as part of TMA02 - Q4b
+
+
