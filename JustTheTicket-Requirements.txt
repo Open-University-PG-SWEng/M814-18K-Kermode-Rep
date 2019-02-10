@@ -79,4 +79,14 @@ Rationale: This allows returned tickets to be reallocated to waiting customers a
 Originator: Poly Gray
 Comments: [William Donnell] Added as part of TMA02 - Q4b
 
+REQ-ID: AEG1
+Description: The product shall allow payments for tickets to be refunded.
+Type: Functional Requirement
+Rationale: To enable fair dealings with customers who for any reason no longer require their tickets and have already made payments.
+Originator: Thomas Shelby
 
+REQ-ID: AEG2
+Description: The product shall allow reallocation of tickets every 24 hours.
+Type: Functional Requirement
+Rationale: To enable reselling returned tickets to enable full venues which generates a good atmosphere and also to enable meeting target revenue.
+Originator: Polly Gray
