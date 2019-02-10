@@ -90,3 +90,19 @@ Description: The product shall allow reallocation of tickets every 24 hours.
 Type: Functional Requirement
 Rationale: To enable reselling returned tickets to enable full venues which generates a good atmosphere and also to enable meeting target revenue.
 Originator: Polly Gray
+
+REQ-ID:pj01
+Description:The application shall record tickets that have been returned
+Type:Functional requirement
+Rationale:To be able to reallocate the ticket recorded as once successfully returned
+Fit Criterion:The user shall be able to return the valid purchased ticket easily.
+Originator:Thomas
+Comments: [AmbikaBabu]Added a functional requirement related to the return ticket for reallocation process.
+
+REQ-ID:pj02
+Description:The application shall reallocate tickets according to the  waiting list in a consistent way.
+Type:Functional requirement
+Rationale:To be able to manage the reallocation easily.
+Fit Criterion:The ticket shall visible in the reallocation list.
+Originator:Polly
+Comments:[AmbikaBabu]Added a functional requirement based on the waiting list.
