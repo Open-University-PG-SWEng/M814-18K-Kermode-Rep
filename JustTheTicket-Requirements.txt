@@ -106,3 +106,15 @@ Rationale:To be able to manage the reallocation easily.
 Fit Criterion:The ticket shall visible in the reallocation list.
 Originator:Polly
 Comments:[AmbikaBabu]Added a functional requirement based on the waiting list.
+
+REQ-ID: JB1
+Description: The product shall refund monies to the original payment method.
+Type: Functional Requirement
+Rationale: For returned tickets the customer expects refunds to be conveniently returned to the resource that was used to pay for them.	
+Originator: Bob Smith (Customer Persona)	
+
+REQ-ID: JB2
+Description: The product shall place returned tickets in a reallocation pool.
+Type: Functional Requirement
+Rationale: Returned tickets should not be reallocated automatically, but be placed in holding for managed reallocation.
+Originator: Polly Gray and Thomas Shelby (XXII Commonwealth Games Managers)
