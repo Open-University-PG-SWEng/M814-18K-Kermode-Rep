@@ -118,3 +118,15 @@ Description: The product shall place returned tickets in a reallocation pool.
 Type: Functional Requirement
 Rationale: Returned tickets should not be reallocated automatically, but be placed in holding for managed reallocation.
 Originator: Polly Gray and Thomas Shelby (XXII Commonwealth Games Managers)
+
+REQ-ID: JG1
+Description: The product shall record the reason for return in pre-defined categories.
+Type: Functional requirement
+Rationale: Reasons for return, in combination with other attributes, will permit analysis of customer behaviour and return trends.
+Originator: Polly Gray
+
+REQ-ID: JG2
+Description: The product shall provide reporting on the reasons for return.
+Type: Functional requirement
+Rationale: Reporting output must be provided to facilitate the analysis and potential as proposed by Polly to understand trends and tackle the potential for fraud.
+Originator: Polly Gray
