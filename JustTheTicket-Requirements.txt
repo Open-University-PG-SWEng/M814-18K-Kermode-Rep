@@ -130,3 +130,15 @@ Description: The product shall provide reporting on the reasons for return.
 Type: Functional requirement
 Rationale: Reporting output must be provided to facilitate the analysis and potential as proposed by Polly to understand trends and tackle the potential for fraud.
 Originator: Polly Gray
+
+REQ-ID: NW1
+Description: The product shall produce Tickets that have a UID (Unique Identifier)
+Type: Functional requirement
+Rationale: To enable each ticket to be tracked and traced for refund or audit.
+Originator: Thomas
+
+REQ-ID: NW2
+Description: The product shall be able to find a ticket either by UID or customer details
+Type: Functional requirement
+Rationale: To enable specific tickets to be refunded.
+Originator: Thomas
