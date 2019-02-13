@@ -156,3 +156,12 @@ Type: Functional Requirement
 Rationale: To enable Polly and Thomas to review possible patterns and fraud before reallocating the tickets.
 Originator: Polly Gray (Domestic ticket sales)
 Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
+
+RQ1 -S.K Description: Reallocate returned tickets 
+Rationale: To allow the customers on the waiting list to be allocated the returned tickets
+Originator: Thomas
+RQ2 -S.K
+Description: Assess and record reason for ticket return
+Rationale: To help protect the games from fraud
+Originator: Polly
+Comments: [Sarah Kingori] Added as part of TMA02 Question 4b
