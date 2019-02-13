@@ -142,3 +142,17 @@ Description: The product shall be able to find a ticket either by UID or custome
 Type: Functional requirement
 Rationale: To enable specific tickets to be refunded.
 Originator: Thomas
+
+REQ-ID: RC1
+Description: The product shall allow the customer to select the ticket(s) they want to return
+Type: Functional Requirement
+Rationale: To verify which ticket(s) are to be unallocated.
+Originator: Thomas Shelby (Business development)
+Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
+
+REQ-ID: RC2
+Description: The product shall acquire a reason for the ticket return
+Type: Functional Requirement
+Rationale: To enable Polly and Thomas to review possible patterns and fraud before reallocating the tickets.
+Originator: Polly Gray (Domestic ticket sales)
+Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
