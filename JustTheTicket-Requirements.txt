@@ -42,7 +42,7 @@ Rationale: So that it is possible to identify if there are common reasons or cau
 Originator: Thomas
 
 REQ-ID: MG1
-Description: The product shall check a returned ticket against that customer’s ticket purchases
+Description: The product shall check a returned ticket against that customerâ€™s ticket purchases
 Type: Functional Requirement
 Rationale: To verify that the customer has previously purchased the ticket
 Originator: Thomas Shelby - Business Development
@@ -57,13 +57,13 @@ REQ-ID: RJE1
 Description: The product shall accept the returned ticket(s) selected by the customer.
 Type: Functional Requirement
 Rationale: The returned ticket(s) are required to enable the appropriate tickets within the real time inventory to be identified and made available for re-sale. 
-Originator: Thomas Shelby – Business Development Manager 
+Originator: Thomas Shelby â€“ Business Development Manager 
 
 REQ-ID: RJE2
 Description: The product shall accept the reason the customer wants to return ticket(s).
 Type: Functional Requirement
 Rationale: The reason ticket(s) are returned is required to enable the identification of any trends in ticket returns and assist with fraud prevention. 
-Originator: Polly Gray – Domestic Ticket Sales Manager 
+Originator: Polly Gray â€“ Domestic Ticket Sales Manager 
 
 REQ-ID: WD1
 Description: The product shall refund customers using original payment method.
@@ -165,3 +165,15 @@ Description: Assess and record reason for ticket return
 Rationale: To help protect the games from fraud
 Originator: Polly
 Comments: [Sarah Kingori] Added as part of TMA02 Question 4b
+
+REQ-ID:KC1
+Description:The product shall create a ticket purchasing waiting list for events viewable by staff.
+Type: Functional requirement
+Rationale: Allows staff to view order of attempted purchase
+Originator: Staff
+
+REQ-ID:KC2
+Description:The product waiting list shall display exact number of tickets customers need
+Type:Functional
+Rationale: When assigning returned tickets, seeing the desired amount will make the process more efficent 
+Originator: Staff
