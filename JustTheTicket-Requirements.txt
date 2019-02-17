@@ -5,29 +5,76 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
-REQ-ID: PJ1
-Description: The product shall be able to un-allocate tickets from a customer
-Type: Functional Requirement
-Rationale: To enable returned tickets to be scheduled for re-allocation
-Originator: Polly
+REQ-ID: NW1
+Description: The product shall produce Tickets that have a UID (Unique Identifier)
+Type: Functional requirement
+Rationale: To enable each ticket to be tracked and traced for refund or audit.
+Originator: Thomas
 
-REQ-ID: PJ2
-Description: The product shall be able to add returned tickets to a re-allocation schedule
-Type: Functional Requirement
-Rationale: To enable returned tickets to be re-allocated when a schedule runs
-Originator: Polly
 
-REQ-ID: SH1
-Description: The product will assign returned tickets to be reallocated
-Type: Functional Requirement
-Rationale: Allows for the tickets to be reallocated to those in the waiting list in a manageable and consistent manner
-Originator: Polly
+REQ-ID: NW2
+Description: The product shall be able to find a ticket either by UID or customer details
+Type: Functional requirement
+Rationale: To enable specific tickets to be refunded.
+Originator: Thomas
+
 
 REQ-ID: SH2
 Description: The product will display all tickets a customer currently owns
 Type: Functional Requirement
 Rationale: The customer will need some record of their currently owned tickets in order to choose one or more for returning, if they want to
 Originator: Polly
+
+
+REQ-ID: RC1
+Description: The product shall allow the customer to select the ticket(s) they want to return
+Type: Functional Requirement
+Rationale: To verify which ticket(s) are to be unallocated.
+Originator: Thomas Shelby (Business development)
+Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
+
+REQ-ID: RJE1
+Description: The product shall accept the returned ticket(s) selected by the customer.
+Type: Functional Requirement
+Rationale: The returned ticket(s) are required to enable the appropriate tickets within the real time inventory to be identified and made available for re-sale. 
+Originator: Thomas Shelby – Business Development Manager 
+
+
+REQ-ID: MG1
+Description: The product shall check a returned ticket against that customer’s ticket purchases
+Type: Functional Requirement
+Rationale: To verify that the customer has previously purchased the ticket
+Originator: Thomas Shelby - Business Development
+
+
+REQ-ID: JG1
+Description: The product shall record the reason for return in pre-defined categories.
+Type: Functional requirement
+Rationale: Reasons for return, in combination with other attributes, will permit analysis of customer behaviour and return trends.
+Originator: Polly Gray
+Comments: [RJE] This requirement provides the functionality of duplicated requirements which were deleted (RJE2, RC2, RQ2-SK (part of)) 
+
+REQ-ID: PJ1
+Description: The product shall be able to un-allocate tickets from a customer
+Type: Functional Requirement
+Rationale: To enable returned tickets to be scheduled for re-allocation
+Originator: Polly
+
+
+REQ-ID: AEG1
+Description: The product shall allow payments for tickets to be refunded.
+Type: Functional Requirement
+Rationale: To enable fair dealings with customers who for any reason no longer require their tickets and have already made payments.
+Originator: Thomas Shelby
+
+REQ-ID: WD1
+Description: The product shall refund customers using original payment method.
+Type: Functional Requirement
+Rationale: By refunding the original payment method reduces the risk of fraud and restricts black market trading.
+Originator: Thomas Shelby, Customer
+Comments: [William Donnell] Added as part of TMA02 - Q4b
+Comments: [RJE] This requirement provides the functionality of duplicated requirement which was deleted (JB1) 
+
 
 REQ-ID: DIA1
 Description: It must be possible to view all the tickets a customer has returned
@@ -41,49 +88,20 @@ Type: Functional Requirement
 Rationale: So that it is possible to identify if there are common reasons or causes for returning tickets
 Originator: Thomas
 
-REQ-ID: MG1
-Description: The product shall check a returned ticket against that customer’s ticket purchases
-Type: Functional Requirement
-Rationale: To verify that the customer has previously purchased the ticket
-Originator: Thomas Shelby - Business Development
+REQ-ID: JG2
+Description: The product shall provide reporting on the reasons for return.
+Type: Functional requirement
+Rationale: Reporting output must be provided to facilitate the analysis and potential as proposed by Polly to understand trends and tackle the potential for fraud.
+Originator: Polly Gray
+Comments: [RJE] This requirement provides the functionality of duplicated requirement which was deleted (RQ2-S.K (part of)) 
 
-REQ-ID: MG2
-Description: The product shall put a returned ticket into a returned tickets repository
-Type: Functional Requirement
-Rationale: To enable controlled reallocation of returned tickets
-Originator: Polly Gray - Domestic Ticket Sales
 
-REQ-ID: RJE1
-Description: The product shall accept the returned ticket(s) selected by the customer.
+REQ-ID: PJ2
+Description: The product shall be able to add returned tickets to a re-allocation schedule
 Type: Functional Requirement
-Rationale: The returned ticket(s) are required to enable the appropriate tickets within the real time inventory to be identified and made available for re-sale. 
-Originator: Thomas Shelby – Business Development Manager 
-
-REQ-ID: RJE2
-Description: The product shall accept the reason the customer wants to return ticket(s).
-Type: Functional Requirement
-Rationale: The reason ticket(s) are returned is required to enable the identification of any trends in ticket returns and assist with fraud prevention. 
-Originator: Polly Gray – Domestic Ticket Sales Manager 
-
-REQ-ID: WD1
-Description: The product shall refund customers using original payment method.
-Type: Functional Requirement
-Rationale: By refunding the original payment method reduces the risk of fraud and restricts black market trading.
-Originator: Thomas Shelby, Customer
-Comments: [William Donnell] Added as part of TMA02 - Q4b
-
-REQ-ID: WD2
-Description: The product shall add returned tickets to a reallocation list.
-Type: Functional Requirement
-Rationale: This allows returned tickets to be reallocated to waiting customers at a later date.
-Originator: Poly Gray
-Comments: [William Donnell] Added as part of TMA02 - Q4b
-
-REQ-ID: AEG1
-Description: The product shall allow payments for tickets to be refunded.
-Type: Functional Requirement
-Rationale: To enable fair dealings with customers who for any reason no longer require their tickets and have already made payments.
-Originator: Thomas Shelby
+Rationale: To enable returned tickets to be re-allocated when a schedule runs
+Originator: Polly
+Comments: [RJE] This requirement provides the functionality of duplicated requirements which were deleted (SH1, MG2, WD2, PJ01, PJ02, JB2) 
 
 REQ-ID: AEG2
 Description: The product shall allow reallocation of tickets every 24 hours.
@@ -91,80 +109,11 @@ Type: Functional Requirement
 Rationale: To enable reselling returned tickets to enable full venues which generates a good atmosphere and also to enable meeting target revenue.
 Originator: Polly Gray
 
-REQ-ID:pj01
-Description:The application shall record tickets that have been returned
-Type:Functional requirement
-Rationale:To be able to reallocate the ticket recorded as once successfully returned
-Fit Criterion:The user shall be able to return the valid purchased ticket easily.
-Originator:Thomas
-Comments: [AmbikaBabu]Added a functional requirement related to the return ticket for reallocation process.
-
-REQ-ID:pj02
-Description:The application shall reallocate tickets according to the  waiting list in a consistent way.
-Type:Functional requirement
-Rationale:To be able to manage the reallocation easily.
-Fit Criterion:The ticket shall visible in the reallocation list.
-Originator:Polly
-Comments:[AmbikaBabu]Added a functional requirement based on the waiting list.
-
-REQ-ID: JB1
-Description: The product shall refund monies to the original payment method.
-Type: Functional Requirement
-Rationale: For returned tickets the customer expects refunds to be conveniently returned to the resource that was used to pay for them.	
-Originator: Bob Smith (Customer Persona)	
-
-REQ-ID: JB2
-Description: The product shall place returned tickets in a reallocation pool.
-Type: Functional Requirement
-Rationale: Returned tickets should not be reallocated automatically, but be placed in holding for managed reallocation.
-Originator: Polly Gray and Thomas Shelby (XXII Commonwealth Games Managers)
-
-REQ-ID: JG1
-Description: The product shall record the reason for return in pre-defined categories.
-Type: Functional requirement
-Rationale: Reasons for return, in combination with other attributes, will permit analysis of customer behaviour and return trends.
-Originator: Polly Gray
-
-REQ-ID: JG2
-Description: The product shall provide reporting on the reasons for return.
-Type: Functional requirement
-Rationale: Reporting output must be provided to facilitate the analysis and potential as proposed by Polly to understand trends and tackle the potential for fraud.
-Originator: Polly Gray
-
-REQ-ID: NW1
-Description: The product shall produce Tickets that have a UID (Unique Identifier)
-Type: Functional requirement
-Rationale: To enable each ticket to be tracked and traced for refund or audit.
-Originator: Thomas
-
-REQ-ID: NW2
-Description: The product shall be able to find a ticket either by UID or customer details
-Type: Functional requirement
-Rationale: To enable specific tickets to be refunded.
-Originator: Thomas
-
-REQ-ID: RC1
-Description: The product shall allow the customer to select the ticket(s) they want to return
-Type: Functional Requirement
-Rationale: To verify which ticket(s) are to be unallocated.
-Originator: Thomas Shelby (Business development)
-Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
-
-REQ-ID: RC2
-Description: The product shall acquire a reason for the ticket return
-Type: Functional Requirement
-Rationale: To enable Polly and Thomas to review possible patterns and fraud before reallocating the tickets.
-Originator: Polly Gray (Domestic ticket sales)
-Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
 
 RQ1 -S.K Description: Reallocate returned tickets 
 Rationale: To allow the customers on the waiting list to be allocated the returned tickets
 Originator: Thomas
-RQ2 -S.K
-Description: Assess and record reason for ticket return
-Rationale: To help protect the games from fraud
-Originator: Polly
-Comments: [Sarah Kingori] Added as part of TMA02 Question 4b
+
 
 REQ-ID:KC1
 Description:The product shall create a ticket purchasing waiting list for events viewable by staff.
@@ -172,8 +121,11 @@ Type: Functional requirement
 Rationale: Allows staff to view order of attempted purchase
 Originator: Staff
 
+
 REQ-ID:KC2
 Description:The product waiting list shall display exact number of tickets customers need
 Type:Functional
 Rationale: When assigning returned tickets, seeing the desired amount will make the process more efficent 
 Originator: Staff
+
+
