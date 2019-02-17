@@ -47,12 +47,12 @@ Rationale: To verify that the customer has previously purchased the ticket
 Originator: Thomas Shelby - Business Development
 
 
-REQ-ID: JG1
-Description: The product shall record the reason for return in pre-defined categories.
-Type: Functional requirement
-Rationale: Reasons for return, in combination with other attributes, will permit analysis of customer behaviour and return trends.
-Originator: Polly Gray
-Comments: [RJE] This requirement provides the functionality of duplicated requirements which were deleted (RJE2, RC2, RQ2-SK (part of)) 
+REQ-ID: RJE2
+Description: The product shall accept the reason the customer wants to return ticket(s).
+Type: Functional Requirement
+Rationale: The reason ticket(s) are returned is required to enable the identification of any trends in ticket returns and assist with fraud prevention. 
+Originator: Polly Gray – Domestic Ticket Sales Manager 
+Comments: [RJE] This requirement provides the functionality of duplicated requirements which were deleted (JG1, RC2, RQ2-SK (part of)) 
 
 REQ-ID: PJ1
 Description: The product shall be able to un-allocate tickets from a customer
@@ -87,21 +87,16 @@ Description: It must be possible for the review staff to view the reason for ret
 Type: Functional Requirement
 Rationale: So that it is possible to identify if there are common reasons or causes for returning tickets
 Originator: Thomas
+Comments: [RJE] This requirement provides the functionality of duplicated requirements which were deleted (JG2, RQ2-S.K (part of))
 
-REQ-ID: JG2
-Description: The product shall provide reporting on the reasons for return.
-Type: Functional requirement
-Rationale: Reporting output must be provided to facilitate the analysis and potential as proposed by Polly to understand trends and tackle the potential for fraud.
-Originator: Polly Gray
-Comments: [RJE] This requirement provides the functionality of duplicated requirement which was deleted (RQ2-S.K (part of)) 
-
-
-REQ-ID: PJ2
-Description: The product shall be able to add returned tickets to a re-allocation schedule
-Type: Functional Requirement
-Rationale: To enable returned tickets to be re-allocated when a schedule runs
-Originator: Polly
-Comments: [RJE] This requirement provides the functionality of duplicated requirements which were deleted (SH1, MG2, WD2, PJ01, PJ02, JB2) 
+REQ-ID:pj01
+Description:The application shall record tickets that have been returned
+Type:Functional requirement
+Rationale:To be able to reallocate the ticket recorded as once successfully returned
+Fit Criterion:The user shall be able to return the valid purchased ticket easily.
+Originator:Thomas
+Comments: [AmbikaBabu]Added a functional requirement related to the return ticket for reallocation process.
+Comments: [RJE] This requirement provides the functionality of duplicated requirements which were deleted (PJ2, SH1, MG2, WD2, PJ02, JB2) 
 
 REQ-ID: AEG2
 Description: The product shall allow reallocation of tickets every 24 hours.
