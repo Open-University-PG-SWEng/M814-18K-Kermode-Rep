@@ -1,4 +1,4 @@
-REQ-ID:
+﻿REQ-ID:
 Description:
 Type:
 Rationale:
@@ -177,3 +177,20 @@ Description:The product waiting list shall display exact number of tickets custo
 Type:Functional
 Rationale: When assigning returned tickets, seeing the desired amount will make the process more efficent 
 Originator: Staff
+
+Requirements :Ambika Babu
+1.NW1 -The product shall produce Tickets that have a UID (Unique Identifier)
+2.NW2-The product shall be able to find a ticket either by UID or customerdetails
+3.SH2-The product will display all tickets a customer currently owns
+4.RC1-The product shall allow the customer to select the ticket(s) they want to return
+5.MG1-The product shall check a returned ticket against that customer’s ticket purchases
+6.JG1-The product shall record the reason for return in pre-defined categories
+7.JB1-The product shall refund monies to the original payment method.
+8.DIA1-It must be possible to view all the tickets a customer has returned
+9.RQ2-S.K Assess and record reason for ticket return
+10.PJ01-The application shall record tickets that have been returned
+11.PJ2-The product shall be able to add returned tickets to a re-allocation schedule
+12.AEG2-The product shall allow reallocation of tickets every 24 hours.
+13.KC1-The product shall create a ticket purchasing waiting list for events viewable by staff.
+14.KC2-The product waiting list shall display exact number of tickets customers need.
+
