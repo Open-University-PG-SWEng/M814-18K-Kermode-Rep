@@ -66,10 +66,6 @@ Type: Functional Requirement
 Rationale: To enable reselling returned tickets to enable full venues which generates a good atmosphere and also to enable meeting target revenue.
 Originator: Polly Gray
 
-RQ1 -S.K Description: Reallocate returned tickets 
-Rationale: To allow the customers on the waiting list to be allocated the returned tickets
-Originator: Thomas
-
 REQ-ID:KC1
 Description:The product shall create a ticket purchasing waiting list for events viewable by staff.
 Type: Functional requirement
