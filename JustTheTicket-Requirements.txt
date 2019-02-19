@@ -1,4 +1,4 @@
-REQ-ID:
+﻿REQ-ID:
 Description:
 Type:
 Rationale:
@@ -177,3 +177,16 @@ Description:The product waiting list shall display exact number of tickets custo
 Type:Functional
 Rationale: When assigning returned tickets, seeing the desired amount will make the process more efficent 
 Originator: Staff
+
+REQ-ID:TP1
+Description: The product shall allow the customer to return the purchased tickets if the customer should not need them.
+Type: Functional
+Rationale: Customers have to select the correct ticket to be returned from the list of available Tickets.
+Originator: Thomas
+
+REQ-ID:TP2
+Description: The product shall manage the reassignment of the returned tickets. 
+Type: Functional
+Rationale: To reassign the unused tickets to the inventory to be sold again.
+Originator: Polly
+Comments: [Tommaso Paci] Added as part of TMA02 Question 4b
