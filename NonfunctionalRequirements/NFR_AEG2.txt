@@ -1,0 +1,7 @@
+REQ-ID: NFR_AEG2
+Description: The allocation process must run in parallel with the other ticket inquiries and purchase processes without halting or slowing down the system.  
+Type: NFR
+Rationale: This will allow users to search for and purchase tickets as usual when the reallocation process is running. 
+Fit Criterion: The ticket reallocation process shall be isolated and configured to run with low priority so that it does not halt or slow down the system when the system is experiencing high traffic of over 200 concurrent users.
+Originator: AEG
+Comments: [AEG] added a non-functional requirment for the AEG2 functiional requirement
