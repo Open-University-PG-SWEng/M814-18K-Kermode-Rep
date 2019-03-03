@@ -4,3 +4,5 @@ Type: NFR - Usability
 Rationale: So that the reason recorded for the return is accurate
 Fit Criterion: It shall take less than 5 seconds to enter the reason for return for 95% of returns and no more than 20 seconds for the rest.
 Originator: Polly Gray and Thomas Shelby
+Comments: [DIA] Created on 03/03/2019
+[DIA] Modified on 03/03/2019 to include creation date.
