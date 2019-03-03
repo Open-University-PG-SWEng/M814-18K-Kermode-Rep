@@ -1,0 +1,8 @@
+REQ-ID:PJ3
+Description:A ticket can only be added to the list to re-allocate by the automated process processing the returned ticket
+Type:Non-Functional Requirement
+Rationale:To avoid the risk of tickets being re-allocated fraudulently
+Fit Criterion:The principle of least privilege is applied to the re-allocation list and process. Only the account the automated process is running under is given permission to add ticket details to the re-allocation list.
+Originator: Security Expert at Software Masters
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[PJ] I have assumed that there will be an assigned security expert at software masters responsible for identifying non functional security requirements.
