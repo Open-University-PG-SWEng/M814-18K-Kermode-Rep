@@ -1,0 +1,6 @@
+REQ-ID: DIA-3
+Description: The product shall provide a mechanism which is easy to use and understand, for entering the reason for returning one or more tickets
+Type: NFR - Usability
+Rationale: So that the reason recorded for the return is accurate
+Fit Criterion: It shall take less than 5 seconds to enter the reason for return for 95% of returns and no more than 20 seconds for the rest.
+Originator: Polly Gray and Thomas Shelby
