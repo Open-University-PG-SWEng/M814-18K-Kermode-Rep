@@ -1,0 +1,7 @@
+REQ-ID: MG3
+Description: The product shall maintain up-to-date record of all tickets purchased by the customer.
+Type: 12 (Performance).
+Rationale: To ensure that ticket returns are validated against the customer's current ticket holdings.
+Fit Criterion: The customer's ticket purchase record must reflect the accurate, up-to-date status of all tickets purchased by the customer (e.g. whether 'reserved', 'returned', 'expired', 'cancelled') prior to the current ticket return transaction.
+Originator: Polly Gray, Domestic Ticket Sales.
+Comments: [MG] Created on 05/03/2019.  I have assumed that ticketing transactions and recording will be real-time processing.  I have also assumed that Polly raised the performance requirement; although, it's likely an analyst would have introduced this in discussion with the clients.  The suggested ticket status values are an illustration only - actual values and logic to decide whether a matched ticket can be returned would be documented as a new functional requirement.
