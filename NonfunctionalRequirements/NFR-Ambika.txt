@@ -1,0 +1,7 @@
+REQ-ID:AM01
+Description:The waiting list shall update reallocated tickets every 24 hrs.
+Type:12:Performance requirements
+Rationale:Customers should able to book the ticket as soon as possible.
+Fit Criterion:The maximum time for updating the reallocated waiting list  shall be 24 hrs
+Originator: Polly
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in at the start .
