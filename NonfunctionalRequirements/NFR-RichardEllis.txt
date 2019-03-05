@@ -1,0 +1,8 @@
+REQ-ID: RJE3
+Description: A customer shall be able to easily select and return tickets without making any mistakes on their first use of the ticket return process. 
+Type: Non-functional requirement – Usability and Humanity (Type 11)
+Rationale: The ticket return process must be easy to use on the first attempt to prevent customers from becoming frustrated, abandoning the return process and selling their unwanted tickets by other means. The product shall minimise customer mistakes, such as inadvertently returning tickets they wanted to retain from their assigned collection. Such mistakes would diminish the reputation of the product in the eyes of the customer.
+Fit Criterion: : The tickets intended to be returned shall be shown as returned and available for re-sale in the real time ticket inventory after the customer has completed the return process. A panel of 20 members that is representative of the customer base shall be asked to return certain tickets. Each panel member shall use a test account setup and assigned with 30 tickets from 6 events, and be required to return 4 particular tickets from 1 event and 2 from another event. 90% of the panel shall successfully complete this task with 100% ticket return accuracy within 4 minutes. 
+Originator: Thomas Shelby – Business Development Manager
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[RJE – requirement created 5th March 2019. Assumptions made: The test criteria (group size, ticket return combination, time allowed and accuracy for success ) would have been discussed and verified with the client. ] 
