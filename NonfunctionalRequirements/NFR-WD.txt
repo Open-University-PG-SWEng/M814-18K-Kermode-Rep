@@ -1,0 +1,9 @@
+REQ-ID:WD
+Description:The method of refunding original payment must be safe and secure fromr intrusions. 
+Type: 15 - Security Requirements
+Rationale: Operations and Customers must be protected via encryption technologies to ensure original payment details or customer account is compromised during the transaction process.
+Fit Criterion: The system will comply with ISO/IEC 27001 regulations on data security within both account and payment systems and associated interfaces.
+Originator: Software Masters - Cyber Security Expert
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[WD] - Implied role of cyber security expert within Software Masters
+[WD] - Implied usage of cyber security methodologies considered and applied to system based on the ISO/IEC 27001 standard
