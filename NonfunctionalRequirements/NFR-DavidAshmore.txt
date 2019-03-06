@@ -6,11 +6,3 @@ Fit Criterion: It shall take less than 5 seconds to enter the reason for return 
 Originator: Polly Gray and Thomas Shelby
 Comments: [DIA] Created on 03/03/2019
 [DIA] Modified on 03/03/2019 to include creation date.
-
-
-[AEG] -- BEGIN
-The fit criterion would be watertight if the intention is to select the "reason" from a list of words or phrases, provided the list is short. However, the selection of phrases was not mentioned in the requirement which makes it difficult to test the requirement with the fit criterion. Assuming the input mechanism is a free-text, 5 seconds will not be enough for most users especially the elderly ones, in this case, 95% would be a subjective value. Moreover, even if an agent handles the input, five seconds may be enough for selecting a reason from a list but not close if writing longer text, unless the agent is extremely fast in typing and is experienced in his/her work - the user also has to be fast telling the story. 
-
-It also makes sense to provide a "selection list" and a "free-text" with fixed length for a detailed description of other reasons not in the list, to give the user more freedom. Taking all these into consideration, the fit criterion for this requirement may be close to this: "it shall take less than 20 seconds for an average user/persona to complete the input required for ticket returns" -  input, in this case, is a list or a free-text and possibly an additional field to enter/select the ticket number.
-
-[AEG] -- END
