@@ -1,0 +1,7 @@
+REQ-ID: NFR_PJ1
+Description: The product shall keep a history of all un-allocation activities for a single ticket.
+Type: Non-functional Performance Type 12
+Rationale: Prior unallocation data may be needed for fraud investigation or customer disputes.
+Fit Criterion: The product shall track up to 1000 un-allocation events for a single ticket, and be able to return that volume of data in a formatted manner.
+Originator: Polly Gray
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
