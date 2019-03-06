@@ -5,8 +5,3 @@ Rationale: To ensure that ticket returns are validated against the customer's cu
 Fit Criterion: The customer's ticket purchase record must reflect the accurate, up-to-date status of all tickets purchased by the customer (e.g. whether 'reserved', 'returned', 'expired', 'cancelled') prior to the current ticket return transaction.
 Originator: Polly Gray, Domestic Ticket Sales.
 Comments: [MG] Created on 05/03/2019.  I have assumed that ticketing transactions and recording will be real-time processing.  I have also assumed that Polly raised the performance requirement; although, it's likely an analyst would have introduced this in discussion with the clients.  The suggested ticket status values are an illustration only - actual values and logic to decide whether a matched ticket can be returned would be documented as a new functional requirement.
-
-
-[AEG] -- BEGIN
-The fit criterion is appropriate because it provides measurements to test the requirement; it demands that the system keeps a history of tickets in general, which in effect traces the status of the tickets. This is acceptable. However it would be much clearer to reformulate the fit criterion as close as this example; "The product shall keep a history of tickets, and the status of a ticket must include "reserved", "returned", "expired", "new/none" and "cancelled". Note that I added the status "new/none" because the history starts from creation of the ticket.
-[AEG] -- END
