@@ -1,5 +1,5 @@
 REQ-ID: ND3
-Description: The product shall encrypt UID (Unique Identifier) [for tickets] in Katana (unicode in DB)
+Description: The product shall encrypt UID (Unique Identifier) [for tickets] in Katakana (unicode in DB)
 Type: Security
 Rationale: A hacker might [brute force] attack using english dictionary file as JTT is a british system
 Fit Criterion: The average hacker shall be unable to access ticket information due to this unexpected encryption
