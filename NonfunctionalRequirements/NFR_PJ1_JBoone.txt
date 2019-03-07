@@ -6,3 +6,4 @@ Fit Criterion: The product shall track up to 1000 un-allocation events for a sin
 Originator: Polly Gray
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comment:[AM01]I would think this NFR is also a security Type because you mentioned data of unallocation activities.
+[MG] I think the fit criterion "track up to 1000 un-allocation events for a single ticket" and "be able to return [1000]" event data would be testable; but I'm struggling to imagine the circumstances in which a single ticket would be unallocated more than once, let alone 1000 times (although I hesitate to pre-empt any design).
