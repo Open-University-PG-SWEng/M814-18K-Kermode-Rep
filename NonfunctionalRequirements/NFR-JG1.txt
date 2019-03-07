@@ -5,3 +5,4 @@ Rationale: Customer feedback, reason analysis and linguistics may give cause to 
 Fit Criterion: Agreed changes to the reasons must be effected within 10 minutes of the target time by the personnel authorised to make the changes. The changes must be hot-loadable to the live website, and must not influence existing records.
 Originator: Polly Gray
 Comments:[JG] Added file at 2019-03-06T19:29:00+00:00. Perhaps controversial that the NFR spans two types. This is permitted as per MRP page 250...
+[RJE 7th March 2019 - Perhaps the selection of two requirement types does indicate that this is actually two NFRs, and for traceablity and testing should be divided into two. The fit criteria are good, for maintenance the changes should be hot loadable and not break existing records. For security only authorised personnel should be able to make such changes. Perhaps the 'authorised personnel' needs a more precise definition to support verification of the requirement.]
