@@ -5,4 +5,4 @@ Rationale: Prior unallocation data may be needed for fraud investigation or cust
 Fit Criterion: The product shall track up to 1000 un-allocation events for a single ticket, and be able to return that volume of data in a formatted manner.
 Originator: Polly Gray
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-Comment:[AM]I would think this NFR is also a security Type because you mentioned data of unallocation activities.
+Comment:[AM01]I would think this NFR is also a security Type because you mentioned data of unallocation activities.
