@@ -5,3 +5,4 @@ Rationale: A hacker might [brute force] attack using english dictionary file as 
 Fit Criterion: The average hacker shall be unable to access ticket information due to this unexpected encryption
 Originator: Thomas
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[MG] I don't think the fit criterion is testable as "The average hacker" is undefined; however, changing the criterion to (e.g.) "unable to crack using words from the 20 volume OED (or online equivalent)" would tighten it up.
