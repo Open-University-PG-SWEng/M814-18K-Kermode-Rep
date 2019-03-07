@@ -6,3 +6,4 @@ Fit Criterion: The ticket reallocation process shall be isolated and configured 
 Originator: AEG
 Comments: [AEG] added a non-functional requirment for the AEG2 functiional requirement
 [PJ] For the fit criterion, I think "traffic of over 200 concurrent users" is too vague. QA could legitimately test this using 2,000,000 concurrent users (or more) and raise a bug if the system slowed down. I would be more specific (i.e. "traffic of 250 concurrent users").
+Comment[AM01] : Within "Type" section NFR type is not defined correctly.
