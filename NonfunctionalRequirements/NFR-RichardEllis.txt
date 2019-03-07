@@ -6,3 +6,4 @@ Fit Criterion: : The tickets intended to be returned shall be shown as returned 
 Originator: Thomas Shelby – Business Development Manager
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [RJE – requirement created 5th March 2019. Assumptions made: The test criteria (group size, ticket return combination, time allowed and accuracy for success ) would have been discussed and verified with the client. ] 
+[PJ] For the fit criterion, I would question whether any tickets returned by a panel member following their first return are a valid test given that the rationale states "on the first attempt". They could also skew the results as panelists will naturally become quicker as they repeat the same task. I would suggest updating the fit criterion with metrics that involve each panel member only returning a single ticket.
