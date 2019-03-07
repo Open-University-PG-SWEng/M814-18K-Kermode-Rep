@@ -13,3 +13,4 @@ The fit criterion would be watertight if the intention is to select the "reason"
 
 It also makes sense to provide a "selection list" and a "free-text" with fixed length for a detailed description of other reasons not in the list, to give the user more freedom. Taking all these into consideration, the fit criterion for this requirement may be close to this: "it shall take less than 20 seconds for an average user/persona to complete the input required for ticket returns" -  input, in this case, is a list or a free-text and possibly an additional field to enter/select the ticket number.
 [AEG] -- END
+Comment[AM01]I think 5 seconds to write a reason will be too less per user if the user is typing. Fit criterion does not match fully with the description.
