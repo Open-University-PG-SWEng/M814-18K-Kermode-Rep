@@ -7,3 +7,5 @@ Originator: Software Masters - Cyber Security Expert
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [WD] - Implied role of cyber security expert within Software Masters
 [WD] - Implied usage of cyber security methodologies considered and applied to system based on the ISO/IEC 27001 standard
+
+[NW] - Good amount of detail WD, although I dont think customers will be very happy with 'ensure . . . customer account "is" compromised', your criterion seems fine although I'm not familiar with the ISO quoted, was that in the module? minor spelling mistake in your description needs editing too.  [NW]
