@@ -1,7 +1,7 @@
 REQ-ID:WD
-Description:The method of refunding original payment must be safe and secure fromr intrusions. 
+Description:The method of refunding original payment must be safe and secure from intrusions. 
 Type: 15 - Security Requirements
-Rationale: Operations and Customers must be protected via encryption technologies to ensure original payment details or customer account is compromised during the transaction process.
+Rationale: Operations and Customers must be protected via encryption technologies to ensure original payment details or customer account is not compromised during the transaction process.
 Fit Criterion: The system will comply with ISO/IEC 27001 regulations on data security within both account and payment systems and associated interfaces.
 Originator: Software Masters - Cyber Security Expert
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
@@ -9,3 +9,5 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [WD] - Implied usage of cyber security methodologies considered and applied to system based on the ISO/IEC 27001 standard
 
 [NW] - Good amount of detail WD, although I dont think customers will be very happy with 'ensure . . . customer account "is" compromised', your criterion seems fine although I'm not familiar with the ISO quoted, was that in the module? minor spelling mistake in your description needs editing too.  [NW]
+
+[WD] - Updated NFR based on comments by NW - 08/03/2019 @ 01:15
