@@ -6,3 +6,4 @@ Fit Criterion:The principle of least privilege is applied to the re-allocation l
 Originator: Security Expert at Software Masters
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [PJ] I have assumed that there will be an assigned security expert at software masters responsible for identifying non functional security requirements.
+[WD] In relation to 'only the account .. is given permission', this statement appears vague and leaves it open to interpretation of what account level is authorised to run the automated. Inclusion of perhaps a specific account-type would remove the ambiguity as 'account' could be conceived as being from any level that can access the system and specifying the account level would strengthen the Fit Criterion. 
