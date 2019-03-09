@@ -2,7 +2,7 @@ REQ-ID:AM01
 Description:The unallocated waiting list shall update within every 24 hrs.
 Type:12:Performance requirements
 Rationale:Customers should able to book the ticket as soon as possible.
-Fit Criterion: Waiting list queue to be refreshed and should take no more than 3 seconds to complete the reallocation for 100 tickets. 
+Fit Criterion: Waiting list queue to be refreshed and should take no more than 3 seconds to complete the reallocation for 100 tickets .
 Originator: Polly
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in at the start.
 [PJ] I would question whether this is a performance requirement or even a non-functional requirement at all. To me, it reads more like a functional requirement for the schedule that is required to run every 24 hours. Focusing on the fit criterion, for a performance NFR in this area, I would expect a metric that stipulates something like a maximum length of time to run a schedule rather than the frequency the schedule will run at. An example would be "When the reallocated waiting list is updated, it takes no longer than 2 seconds to update a list of 1000 tickets".
