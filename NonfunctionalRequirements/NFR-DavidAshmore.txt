@@ -2,7 +2,7 @@ REQ-ID: DIA-3
 Description: The product shall provide a mechanism which is easy to use and understand, for entering the reason for returning one or more tickets
 Type: NFR - Usability
 Rationale: So that the reason recorded for the return is accurate
-Fit Criterion: It shall take less than 5 seconds to enter the reason for return for 95% of returns and no more than 20 seconds for the rest.
+Fit Criterion: It shall take less than 5 seconds to enter the reason for return for 85% of returns and no more than 30 seconds for the 95% for those who are using their native language.
 Originator: Polly Gray and Thomas Shelby
 Comments: [DIA] Created on 03/03/2019
 [DIA] Modified on 03/03/2019 to include creation date.
@@ -16,3 +16,4 @@ It also makes sense to provide a "selection list" and a "free-text" with fixed l
 Comment[AM01]I think 5 seconds to write a reason will be too less per user if the user is typing. Fit criterion does not match fully with the description.
 Comment[JB]: Fit Criterion: possibly worth extending this to mandate the times are for people entering data in their native language, the localisation of the interface is never going to be complete, so for many people it will be in some second language. Trying to measure how fast people can respond in a second language is a bit of a rabbit hole though. Regarding AM01, I find the fit criterion close, because the timed aspect is not a measurement of performance, but a measurement of the convenience of the interface, and the more convenient it is, the more likely people are to enter a valid reason, rather than 'other', and hence the rationale is met.
 Comment[JB]: Regarding AEG1, this is straying close to implementation, it's probably exactly how it will be implemented, but the fit criterion is good for the requirement, 'It should be so convenient that it takes little time, the majority of the time', ie, 5 secs for a radio button list, more time for a free text box.When it gets to the point of implementation, then the nature of that tries to match the fit criteria; if it does end up as a list, then maybe it requires prototyping and trying out different reason words or phrases to meet the target.
+[DIA] - From the comments I have received I have reduced the 5 seconds completion rate to 85% and increased the rest to 30 seconds for 95% and putting a limit on language thus allowing more leniency for people who have difficulties with computers and not speaking English.
