@@ -2,8 +2,9 @@ REQ-ID:PJ3
 Description:A ticket can only be added to the list to re-allocate by the automated process processing the returned ticket
 Type:Non-Functional Requirement - Security - Access
 Rationale:To avoid the risk of tickets being re-allocated fraudulently
-Fit Criterion:The principle of least privilege is applied to the re-allocation list and process. Only the account the automated process is running under is given permission to add ticket details to the re-allocation list.
+Fit Criterion:The principle of least privilege is applied to the re-allocation list and process. Only the account the automated process is running under has Read and Create permissions in regard to ticket details on the re-allocation list. The account has no further permission in regard to the re-allocation list. No other processes run under this account, only the automated process
 Originator: Security Expert at Software Masters
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [PJ] I have assumed that there will be an assigned security expert at software masters responsible for identifying non functional security requirements.
 [WD] In relation to 'only the account .. is given permission', this statement appears vague and leaves it open to interpretation of what account level is authorised to run the automated. Inclusion of perhaps a specific account-type would remove the ambiguity as 'account' could be conceived as being from any level that can access the system and specifying the account level would strengthen the Fit Criterion. 
+[PJ] Thanks for the comment William, very much appreciated. Given that the 'level' of an account is essentially the permissions it has, I've been clearer about the permissions that should be given to the account. The comment also made me reflect on being specific that the account that runs the process should only be used to run that process, to avoid other processes running under that account that don't need to update the re-allocation list having permissions to update it.
