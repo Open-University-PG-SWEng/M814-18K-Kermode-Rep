@@ -1,9 +1,10 @@
 REQ-ID:JG1
-Description: The pre-defined reasons for return shall be editable by appropriate Games personnel.
-Type: Maintainability and Support Requirements: Type 14, Security Requirements: Type 15
+Description: The pre-defined reasons for return shall be editable.
+Type: Maintainability and Support Requirements: Type 14
 Rationale: Customer feedback, reason analysis and linguistics may give cause to change the list of reasons offered.
-Fit Criterion: Agreed changes to the reasons must be effected within 10 minutes of the target time by the personnel authorised to make the changes. The changes must be hot-loadable to the live website, and must not influence existing records.
+Fit Criterion: Agreed changes to the reasons must be effected within 10 minutes of the target time. The changes must be hot-loadable to the live website, and must not influence existing records.
 Originator: Polly Gray
 Comments:[JG] Added file at 2019-03-06T19:29:00+00:00. Perhaps controversial that the NFR spans two types. This is permitted as per MRP page 250...
 [RJE 7th March 2019 - Perhaps the selection of two requirement types does indicate that this is actually two NFRs, and for traceablity and testing should be divided into two. The fit criteria are good, for maintenance the changes should be hot loadable and not break existing records. For security only authorised personnel should be able to make such changes. Perhaps the 'authorised personnel' needs a more precise definition to support verification of the requirement.]
 [WD] - I can see this criterion also setting usability requirements as editable return reasons will define what interface mechanisms can be utilised for showing return reasons. It may then define that the use of a dropdown list (or another method) may be the only means of controlling the aesthetics of the interface design and support the 10min target time. From that, as RJE suggests this NFR may need to be divided up to cover these requirements to make it more manageable.
+[JG] Wrangled with the two NFRs/two types thing for a while. Agreed as the initial push did demonstrate 'solutionisation'. Simplified to suit. There could be a broader NFR referring to control and security of system parameters, if there isn't one already...
