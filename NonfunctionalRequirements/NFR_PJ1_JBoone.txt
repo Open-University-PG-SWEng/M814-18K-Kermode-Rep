@@ -8,3 +8,4 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 Comment:[AM01]I would think this NFR is also a security Type because you mentioned data of unallocation activities.
 [MG] I think the fit criterion "track up to 1000 un-allocation events for a single ticket" and "be able to return [1000]" event data would be testable; but I'm struggling to imagine the circumstances in which a single ticket would be unallocated more than once, let alone 1000 times (although I hesitate to pre-empt any design).
 [JB] Added in Security NFR type and edited Rationale and Fit Crterion to reflect the change.
+[DIA] I would be surprised that 1000 un-allocation events happened, but I also find that it is odd to place a limit like this on a design, I like the use of statutary data retention period, but I am not clear what this time is.
