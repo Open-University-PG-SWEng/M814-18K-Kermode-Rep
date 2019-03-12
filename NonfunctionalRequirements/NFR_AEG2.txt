@@ -1,8 +1,8 @@
 REQ-ID: NFR_AEG2
-Description: The allocation process must run in parallel with the other ticket inquiries and purchase processes without halting or slowing down the system.  
+Description: The allocation process shall run in parallel with the other ticket inquiries and purchase processes without halting or slowing down the system.  
 Type: 12 - Performance
 Rationale: This will allow users to search for and purchase tickets as usual when the reallocation process is running. 
-Fit Criterion: The ticket allocation process must be completed within an hour, even when the system is experiencing high traffic with 200 concurrent users, the average response time should not be more than 5 seconds.
+Fit Criterion: The ticket allocation process shall be completed within an hour, even when the system is experiencing high traffic with 200 concurrent users, the average response time shall not be more than 5 seconds.
 Originator: AEG
 Comments: [AEG] added a non-functional requirment for the AEG2 functiional requirement
 
