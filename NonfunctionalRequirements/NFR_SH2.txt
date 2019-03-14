@@ -1,0 +1,7 @@
+REQ-ID:NFR_SH2
+Description:The displayed tickets will be easy to read and distinct  
+Type:Usability
+Rationale:A customer needs to be able to instantly identify which ticket is which so that they don’t accidentally return the wrong ticket
+Fit Criterion:90% of all customers shall be able to differentiate between their owned tickets within 3 seconds of seeing their list of owned tickets
+Originator: Polly
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
