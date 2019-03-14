@@ -1,5 +1,5 @@
 REQ-ID:WD
-Description:The method of refunding original payment must be safe and secure from intrusions. 
+Description: The method of refunding original payment must be safe and secure from intrusions. 
 Type: 15 - Security Requirements
 Rationale: Operations and Customers must be protected via encryption technologies to ensure original payment details or customer account is not compromised during the transaction process.
 Fit Criterion: The system will be certified to comply with both PCI-DSS and ISO/IEC 27001 regulations on data security within both account and payment systems and associated interfaces.
@@ -7,13 +7,8 @@ Originator: Software Masters - Cyber Security Expert
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [WD] - Implied role of cyber security expert within Software Masters
 [WD] - Implied usage of cyber security methodologies considered and applied to system based on the ISO/IEC 27001 standard
-
-[NW] - Good amount of detail WD, although I dont think customers will be very happy with 'ensure . . . customer account "is" compromised', your criterion seems fine although I'm not familiar with the ISO quoted, was that in the module? minor spelling mistake in your description needs editing too.  [NW]
-
+[NW] - Good amount of detail WD, although I don't think customers will be very happy with 'ensure . . . customer account "is" compromised', your criterion seems fine although I'm not familiar with the ISO quoted, was that in the module? minor spelling mistake in your description needs editing too.  [NW]
 [WD] - Updated NFR based on comments by NW - 08/03/2019 @ 01:15
-
-[DIA] - This seems like a good requirement with a very clear requirement, I am not familure with ISO 27001, but I would expect that because the system handles credit/debit cards that it would be a requirement to adhear to the PCI-DSS security standard as well.
-
+[DIA] - This seems like a good requirement with a very clear requirement, I am not familure with ISO 27001, but I would expect that because the system handles credit/debit cards that it would be a requirement to adhere to the PCI-DSS security standard as well.
 [JG] We should state that the system has been 'certified to comply' with ISO/IEC 27001, rather than just 'complying'.
-
 [WD] - Updated fit criterion based on comments by JG and DIA to strengthen Fit Criterion in relation to compliance with regulations and provide a testable element - 09/03/2019 @ 20:10
