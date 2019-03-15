@@ -6,3 +6,6 @@ Fit Criterion:90% of all customers shall be able to differentiate between their 
 Originator: Polly
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [MG 20190315] The Fit Criterion as it stands can be tested. It may be further improved by specifying that (e.g.) 98% of tickets are returned correctly. 
+[NW 20190315] I agree fit can be tested but would suggest rewording - I liked the fact you used numbers, as measureable and you use shall so well done 
+there, I would just suggest 'differentiate between their individually owned tickets' just to be clear that their not seeing any other customers tickets. 
+I also agree with MG's comments
