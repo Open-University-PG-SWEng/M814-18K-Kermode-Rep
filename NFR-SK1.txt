@@ -1,0 +1,7 @@
+REQ-ID:NFR-SK1
+Description:The reallocation process of the returned tickets should be reliable and available, every 24hours
+Type:reliability and availability
+Rationale:To enable the customers on the waiting list to be allocated tickets every 24 hours.
+Fit Criterion:the system should be available for at least 12 hours a day.
+Originator:Polly
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
