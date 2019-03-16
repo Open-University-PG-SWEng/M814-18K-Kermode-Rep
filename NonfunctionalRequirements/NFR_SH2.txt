@@ -2,10 +2,11 @@ REQ-ID:NFR_SH2
 Description:The displayed tickets will be easy to read and distinct  
 Type:Usability
 Rationale:A customer needs to be able to instantly identify which ticket is which so that they don’t accidentally return the wrong ticket
-Fit Criterion:90% of all customers shall be able to differentiate between their owned tickets within 3 seconds of seeing their list of owned tickets
+Fit Criterion:98% of all customers shall be able to differentiate between each of their owned tickets within 3 seconds of seeing their list of owned tickets
 Originator: Polly
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [MG 20190315] The Fit Criterion as it stands can be tested. It may be further improved by specifying that (e.g.) 98% of tickets are returned correctly. 
 [NW 20190315] I agree fit can be tested but would suggest rewording - I liked the fact you used numbers, as measureable and you use shall so well done 
 there, I would just suggest 'differentiate between their individually owned tickets' just to be clear that their not seeing any other customers tickets. 
 I also agree with MG's comments
+[SH] thanks for the feedback. I have changed 90% to 98% in the fit criterion and reworded the fit criterion to remove some ambiguity about what the customer has to identify 
