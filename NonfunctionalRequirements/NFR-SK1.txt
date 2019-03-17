@@ -5,3 +5,4 @@ Rationale:To enable the customers on the waiting list to be allocated tickets ev
 Fit Criterion:the system should be available for at least 12 hours a day.
 Originator:Polly
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[SH] I would change the wording of "12 hours a day" to be more specific. Consider the case where the system is availble for 12 hours, then down for 24, before being available for 12 again. Would this case pass or fail? Maybe write it "50% up time over any 24 hour period", or something similar.
