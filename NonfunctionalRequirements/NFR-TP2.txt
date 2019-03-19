@@ -1,0 +1,8 @@
+REQ-ID:NFR-TP2
+Description: The allocation of returned tickets should be easily monitored every 24 Hrs by Thomas and Polly.
+Type: Reliability and availability
+Rationale: To enable Thomas and Polly to easily monitor the return situation and promptly highlight fraud patterns. 
+Fit Criterion: The system should present the results of the returned tickets clearly and on a daily basis to Thomas and Polly.
+Originator: Polly 
+Comments: 
+[TP] Being an online system an easy target for frauds, this feature should highlight eventual patterns to Thomas and Polly, maybe showing on a daily basis statistics about the number of tickets returned, and the names of the persons that have purchased them in first and then in second instance.
