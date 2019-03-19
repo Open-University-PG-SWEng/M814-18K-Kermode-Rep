@@ -6,3 +6,4 @@ Fit Criterion: The system should present the results of the returned tickets cle
 Originator: Polly 
 Comments: 
 [TP] Being an online system an easy target for frauds, this feature should highlight eventual patterns to Thomas and Polly, maybe showing on a daily basis statistics about the number of tickets returned, and the names of the persons that have purchased them in first and then in second instance.
+[KC] Another possible option would be to keep track of the number of times the same card details have been used for purchases and returns and flagging any strange patterns from there.
