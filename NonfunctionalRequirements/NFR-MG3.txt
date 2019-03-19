@@ -1,7 +1,7 @@
 REQ-ID: MG3
 Description: The product shall maintain an up-to-date record of all tickets purchased by all customers.
 Type: 12 (Performance).
-Rationale: To ensure that a ticket being returned can be validated against the requesting customer’s current ticket purchases.
+Rationale: To ensure that a ticket being returned can be validated against the requesting customerâ€™s current ticket purchases.
 Fit Criterion: The customer's ticket purchase record must reflect the accurate (complete and correct), up-to-date (no more than 60 second delay) status of all tickets purchased by the customer (e.g. whether 'purchased', 'returned', 'expired', 'cancelled') prior to the current ticket return transaction.
 Originator: Polly Gray, Domestic Ticket Sales.
 Comments: [MG] Created on 05/03/2019.  I have assumed that ticketing transactions and recording will be real-time processing.  I have also assumed that Polly raised the performance requirement; although, it's likely an analyst would have introduced this in discussion with the clients.  The suggested ticket status values are an illustration only - actual values and logic to decide whether a matched ticket can be returned would be documented as a new functional requirement.
@@ -11,3 +11,4 @@ The fit criterion is appropriate because it provides measurements to test the re
 [AEG] -- END
 [RJE] 9th March 2019 - Perhaps it would be good to quantify 'up to date', especially as this is categorised as a performance NFR ? You mention assuming real time ticketing performance, but is that in terms of minutes, seconds or msecs on such a system ?  Such a quantification could help when subsequently creating the acceptance test.
 [MG 20190310] Amended description, rationale, and added measures for accuracy and up-to-date to fit criterion.
+[TP] I also believe the Fit Criterion is appropriate, and appreciate the changes to the measures for accuracy. I would also specify for how long should the records be kept, and detail which field should be included.
