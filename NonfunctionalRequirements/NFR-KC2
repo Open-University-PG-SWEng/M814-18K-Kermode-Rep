@@ -1,0 +1,7 @@
+REQ-ID: KC2
+Description: The product waiting list shall display the exact number of tickets the customer needs
+Type: Support Requirement
+Rationale: Staff should be able to see the number of order tickets and for which event by the customers name in the waiting list.
+Fit Criterion: Due to the staff requiring to manually reallocate the tickets each day, creating a waiting list that displays the customers number of desired tickets and for which events next to their waiting list entry will help make reallocating more efficient. 
+Originator: Staff
+Comments: [KC] Created on 19/03/2019
