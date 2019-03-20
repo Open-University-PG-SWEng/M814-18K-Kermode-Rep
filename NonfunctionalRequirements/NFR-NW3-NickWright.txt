@@ -28,3 +28,4 @@ Originator: Thomas and Software Masters sensitive data security expert
 
 Assumptions: Assuming encrypting in Katakana and TwoFish is Legal; Also assuming potential hacker is british/english; Also assuming AES, RSA and 3DESare too insecure to encrypt millions of ticket ID's with.
 
+[KC] This fit criterion works. Can easily be tested by having someone download the database contents and check the information is not readily available.   
